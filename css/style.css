@@ -100,13 +100,14 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-header .overlay,
 .fh5co-cover .overlay {
   position: absolute;
+  opacity: 0.8;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-  background: #89CFF0
-  ;
+  background: linear-gradient(#6DA5C0, #0f969C, #0C7075, #072e33);
 }
+
 #fh5co-header .display-t,
 .fh5co-cover .display-t {
   width: 100%;
